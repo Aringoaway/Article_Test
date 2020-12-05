@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+
+
+    font-size: 13px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0 0 15px;
+    color: #f5a211;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.main-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 835px;
+    margin: 0 auto;
+}
+
+.content-wrap {
+
+    width: 100%;
+    max-width: 835px;
+    margin: 0 auto;
+}
+/*Article list
+======================*/
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 570px;
+    border: 1px solid black;
+
+
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    padding: 10px;
+
+    border-bottom: #ededed 1px solid;
+}
+
+.img {
+    width: 183px;
+    height: 113px;
+
+    background-color: #ededed;
+    border: #f5a211 1px solid;
+}
+
+.text-wrap {
+    margin-left: 10px;
+}
+
+.article-title {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+
+}
+
+/*SideBar
+======================*/
+
+.side-wrap {
+
+    width: 100%;
+    max-width: 225px;
+    margin: 0 auto;
+}
+
+
+
+.ad {
+    padding: 40px 5px;
+    position: fixed;
+    width: 225px;
+
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.image-ad {
+    width: 215px;
+    height: 225px;
+
+    background-color: #f5a211;
+}
+
+/*Footer
+======================*/
+
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 835px;
+    margin: 15px auto;
+
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.foot-article {
+    padding: 7px 7px 0;
+}
+
+.image-foot {
+    width: 255px;
+    height: 110px;
+
+    background-color: #ededed;
+    border: #f5a211 1px solid;
+
+}
+
+.text-foot {
+    width: 255px;
+}
+.foot-title {
+    margin: 15px 0;
+}
+
+
+/*ADD
+====================*/
+
+.article-advertising {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    padding: 10px;
+
+    border-bottom: #ededed 1px solid;
+}
+
+.article-advertising::after {
+    content: " ";
+    width: 0;
+    height: 0;
+    margin-top: 40px;
+    border: 28px solid transparent;
+    border-left-color: #f5a211;
+    border-right: 0;
+}
+
+.img--orange {
+    background-color: #f5a211;
+}
+
+.foot-article-add {
+    padding: 7px 7px 0;
+}
+
+.
